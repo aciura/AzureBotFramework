@@ -74,6 +74,13 @@ namespace SimpleEchoBot.Dialogs
                 await context.PostAsync($"You are not a .NET Developer");
             }
 
+            context.Call(new SurveyDialog(), SurverDialogDoneAsync);
+        }
+
+        private async Task SurverDialogDoneAsync(IDialogContext context, IAwaitable<object> result)
+        {
+            await context.PostAsync("Thanks for filling the Survey.");
+
             context.Wait(HelloMessageReceivedAsync);
         }
     }
