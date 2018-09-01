@@ -1,3 +1,20 @@
+## Description & links 
+### LUIS 
+Language Understanding (LUIS)
+A machine learning-based service to build natural language into apps, bots, and IoT devices. Quickly create enterprise-ready, custom models that continuously improve.
+Go to my apps
+https://eu.luis.ai/applications
+
+### TESTING 
+https://github.com/ObjectivityLtd/Bot.Tests.Stories.Xunit
+
+### Running on 
+https://portal.azure.com
+
+### Meetup 
+https://www.meetup.com/WROCsharp/events/253676717/
+
+
 ## Use Azure app service editor
 
 1. make code change in the online editor
